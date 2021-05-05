@@ -1,0 +1,150 @@
+
+- content_for(:title) do
+  = t('.title')
+- content_for(:description) do
+  = t('.description')
+
+.row
+  .col-md-offset-2.col-md-8.info-document
+    %h1
+      FAQ
+
+    %h4
+      How does Lingoloop work?
+
+    %p
+      Lingoloop offers online English conversation classes with expert tutors. Practice real English conversations with our tutors through video chat. Work with us to identify your weaknesses and areas for improvement. Before you know it, you will be correcting yourself!
+
+    %p
+      = link_to('Sign up', home_url)
+      for a free trial class so that we can show you our method and assess your level. Then, pick any of our
+      = link_to('monthly subscription plans', get_started_url)
+      that fits your learning needs.
+
+    %h4
+      What will I learn?
+
+    %p
+      Our curriculum is designed to get you speaking. Every lesson is based on a topic you already know in your native language. We teach you new words, grammar and pronunciation. You will practice with your tutor and other students (in the Group class). Your tutor will show you the mistakes you are making on screen. During the process you will learn the pattern of your mistakes, improve your skills and most importantly, gain confidence! At the end of every class, your tutor will email you the notes from the class.
+
+    %p
+      In Individual classes you have the option to learn about whatever you want. You can even use the time to practice interviews!
+
+    %h4
+      How long are classes?
+
+    %p
+      Both Group and Individual classes are 50 minutes long. The Free Trial class is 25 minutes long.
+
+    %h4
+      Who will teach me?
+
+    %p
+      All of our tutors either have a TEFL degree and/or significant experience teaching English online. We take pride in hiring only the best tutors and it shows in our reviews. We have a 4.9 star Google rating. After you join Lingoloop you will see the name of our tutors on the schedule page so that you can choose their classes. Some people take classes with many tutors. Others focus on one or two. It’s totally up to you!
+
+    %h4
+      How do I get started?
+
+    %p
+      = link_to('Sign up', home_url)
+      for a free trial class so that we can show you our method and assess your level. Then, pick any of our
+      = link_to('monthly subscription plans', get_started_url)
+      that fits your learning needs.
+
+    %h4
+      How do I join a class?
+
+    %p
+      If you have selected a class time on our
+
+      = succeed ',' do
+        = link_to('schedule page', home_url)
+
+      the tutor will email you a link to join the class at the time you selected. We use a software called Zoom to connect to our students. If you are using Lingoloop for the first time, sometimes the first email will be sent to your Spam or Promotions folder. Once you receive the email, simply click the link to join the video chat.
+
+    %h4
+      How much does it cost?
+
+    %p
+      The prices of our monthly subscription plans are
+      = succeed '.' do
+        = link_to('here', get_started_url)
+      We have a few different plans depending on your needs.
+
+    %h4
+      How do I pay?
+
+    %p
+      Use a debit or credit card to pay for your monthly subscription on our
+      = succeed '.' do
+        = link_to('website', get_started_url)
+      Every month you will be automatically charged for a fixed number of tickets depending on the plan you choose. If you run out of tickets you can always buy more using the credit card we have on file. You can also just wait until your next monthly subscription payment.
+
+    %h4
+      How do the tickets work?
+
+    %p
+      Lingoloop tickets can be used to select Group or Private classes. Group classes are 1 ticket and Private Classes are 4 tickets. Tickets expire 60 days after purchase. We find that most students are able to use their tickets within this timeframe.
+
+    %h4
+      What happens if I run out of tickets?
+
+    %p
+      If you run out of tickets you can always buy more using the credit card we have on file. You will be charged at the per ticket price of the plan you have selected. You can also just wait until your next monthly subscription payment.
+
+    %h4
+      Do Lingoloop tickets expire?
+
+    %p
+      Yes. Lingoloop tickets expire 60 days after purchase. We find that most students are able to use their tickets within this timeframe.
+
+    %h4
+      I missed my free trial class, can I try again?
+
+    %p
+      Yes. If you missed your free trial class for any reason, just email us at
+      = mail_to('contact@lingoloop.com')
+      and we will reset your account. Keep in mind, we only allow one free trial class per customer.
+
+    %h4
+      Can I cancel a class if I can’t make it?
+
+    %p
+      Yes. If for any reason you are not able to attend you can cancel your class. You must cancel your class at least 24 hours in advance of the class to get your ticket automatically returned to your account.
+
+    %h4
+      What is your account (or subscription) cancellation policy?
+
+    %p
+      Lingoloop subscriptions (or plans) can be cancelled at any time. Once you cancel your subscription you will no longer be charged the monthly fee. You will have access to your remaining tickets until they expire.
+
+    %h4
+      How do I cancel my subscription?
+
+    %p
+      Cancelling your subscription is easy. On our website, go to your profile on the schedule page (upper right hand corner) to cancel. Also, you can send us an email at
+      = mail_to('contact@lingoloop.com')
+      and we will cancel it for you.
+
+    %h4
+      Can I get a refund?
+
+    %p
+      We have a 30 day refund policy. If you cancel your subscription and ask for a refund within the first 30 days of your subscription we will refund the cost of any remaining tickets in your account… no questions asked! We do not honor any refund requests after 30 days.
+
+    %h4
+      Do you offer English training for companies?
+
+    %p
+      Yes. We offer customized corporate training solutions depending on your company’s goals. Feel free to contact us at
+      = mail_to('contact@lingoloop.com')
+      about your specific needs.
+
+    %h4
+      Who do I contact if I have any questions or issues?
+
+    %p
+      If you have any questions or issues send us an email at
+      = succeed '.' do
+        = mail_to('contact@lingoloop.com')
+      We will try to get back to you as soon as possible.
